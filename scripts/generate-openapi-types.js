@@ -9,7 +9,7 @@ const OpenAPI = require('openapi-typescript-codegen');
 (async function () {
 	const format = 'yaml'; // yaml or json
 	const groups = []; // groups Array
-	// ex) //swaggerURL/api-docs?group';
+	// ex) swaggerURL/api-docs?group';
 	const specURL = ''; // swagger or yaml
 
 	const accessAsync = promisify(fs.access);
