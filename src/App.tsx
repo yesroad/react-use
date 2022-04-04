@@ -1,8 +1,10 @@
 import React from 'react';
+
 import { Global } from '@emotion/react';
 
-import Router from '@/router';
 import { styles } from './assets/styles/Global.styles';
+
+import Router from '@/router';
 
 const App: React.VFC = () => {
 	return (

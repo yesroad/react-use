@@ -26,7 +26,9 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "husky": "^7.0.4",
+    "node-fetch": "^3.2.3",
     "node-sass": "^6.0.1",
+    "openapi-typescript-codegen": "^0.20.1",
     "prettier": "^2.5.0"
   },
   "scripts": {
@@ -34,6 +36,7 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
+    "generate:openApi-typescript": "node ./scripts/generate-openapi-types.js",
     "prepare": "husky install",
     "lint:fix": "eslint '**/*.{ts,tsx}' --ext .ts,.tsx --fix",
     "prettier:fix": "prettier --write --config ./.prettierrc \"./src/**/*.{ts,tsx}\"",
